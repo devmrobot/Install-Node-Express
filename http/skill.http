@@ -1,0 +1,27 @@
+POST http://localhost:3000/api/skills
+Content-Type: application/json
+
+{
+    "name":"React"
+}
+
+### GET ALL SKILL
+GET http://localhost:3000/api/skills
+Content-Type: application/json
+
+### UPDATE SKILL
+PUT http://localhost:3000/api/skills
+Content-Type: application/json
+
+{
+    "id" : 1,
+    "name" : "Python"
+}
+
+### DELETE SKILL
+DELETE http://localhost:3000/api/skills
+Content-Type: application/json
+
+{
+    "idToDelete":1
+}
